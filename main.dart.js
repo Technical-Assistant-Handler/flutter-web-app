@@ -25483,7 +25483,7 @@ alI(a,b){return A.aKd(a,b)},
 aKd(a,b){var s=0,r=A.P(t.a),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$alI=A.Q(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
-k=A.eN("http://10.101.36.155:8000/authenticate",0,null)
+k=A.eN("http://0.0.0.0:8000/authenticate",0,null)
 j=t.N
 i=A.a2(["Content-Type","application/json; charset=UTF-8"],j,j)
 s=7
@@ -25522,7 +25522,7 @@ var $async$ama=A.Q(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.U(A.aL4(A.eN("http://10.101.36.155:8000/user_log_data",0,null),A.a2(["Content-Type","application/json; charset=UTF-8"],k,k)),$async$ama)
+return A.U(A.aL4(A.eN("http://0.0.0.0:8000/user_log_data",0,null),A.a2(["Content-Type","application/json; charset=UTF-8"],k,k)),$async$ama)
 case 7:n=b
 if(n.b===200){j=n
 m=B.aH.de(0,A.Vi(A.V6(j.e).c.a.h(0,"charset")).de(0,j.w))
@@ -25560,7 +25560,7 @@ amq(a){return A.aLt(a)},
 aLt(a){var s=0,r=A.P(t.a),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$amq=A.Q(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-k=A.eN("http://10.101.36.155:8000/logout",0,null)
+k=A.eN("http://0.0.0.0:8000/logout",0,null)
 j=t.N
 i=A.a2(["Content-Type","application/json; charset=UTF-8"],j,j)
 s=7
@@ -25598,7 +25598,7 @@ am6(a){return A.aL3(a)},
 aL3(a){var s=0,r=A.P(t.a),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$am6=A.Q(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-k=A.eN("http://10.101.36.155:8000/generate_otp",0,null)
+k=A.eN("http://0.0.0.0:8000/generate_otp",0,null)
 j=t.N
 i=A.a2(["Content-Type","application/json; charset=UTF-8"],j,j)
 s=7
@@ -25637,7 +25637,7 @@ amJ(a,b){return A.aMb(a,b)},
 aMb(a,b){var s=0,r=A.P(t.a),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$amJ=A.Q(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
-k=A.eN("http://10.101.36.155:8000/update_password",0,null)
+k=A.eN("http://0.0.0.0:8000/update_password",0,null)
 j=t.N
 i=A.a2(["Content-Type","application/json; charset=UTF-8"],j,j)
 s=7
